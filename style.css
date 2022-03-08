@@ -43,6 +43,7 @@ html {
   --main-color: #1a1a1a;
   --secondary-color: #121416;
   --accent-color: #d83337;
+  --content-spacing: 2.5rem;
 }
 
 body {
@@ -58,11 +59,11 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  flex: 1;
   background-image: url('assets/images/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom right;
+  width: 65vw;
 }
 
 .header {
@@ -95,21 +96,33 @@ body {
 
 /* content */
 .content {
-  flex: 2 1 0;
   display: flex;
 }
 
 .main {
   margin-block: auto;
-  padding: 2.5rem;
 }
 
-.description {
-  margin-bottom: 4rem;
+.description,
+.form-heading,
+.input-container {
+  padding: 0 var(--content-spacing) 0 var(--content-spacing);
+}
+
+.submit-button,
+.log-in {
+  margin: 0 var(--content-spacing) 0 var(--content-spacing);
+}
+
+.description,
+.input-container,
+.submit-button {
+  margin-bottom: var(--content-spacing);
 }
 
 .description > p {
   margin-block: 1rem;
+  font-size: 1.5rem;
 }
 
 .input-container {
@@ -117,9 +130,18 @@ body {
   gap: 3rem;
 }
 
-form,
+.form-heading,
 .input-container {
-  padding-block: 1rem;
+  background-color: var(--secondary-color);
+}
+
+.form-heading {
+  padding-top: 1.2rem;
+}
+
+.input-container {
+  box-shadow: 0 10px 20px -2px var(--secondary-color);
+  padding-bottom: 1.2rem;
 }
 
 .section > .input {
