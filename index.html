@@ -23,7 +23,7 @@
           >William Daigneault</a>
         on
           <a
-          href="https://unsplash.com/photos/YQvaQqExNcQ"
+          href="https://unsplash.com/"
           target="_blank"
           rel="noopener noreferrer"
         >Unsplash</a>
@@ -38,31 +38,53 @@
     </div>
   </div>
   <div class="content">
-    <div class="description">
-      <p>
-        This is not a real online service! You know you need something like
-        this in your life to help you realize your deepest dreams.
-        Sign up now to get started.
-      </p>
-      <p>You know you want to.</p>
-    </div>
     <main class="main">
-      <h2>Let's do this!</h2>
-      <div class="input-sections">
-        <div class="section">
-          <input type="text">
-          <input type="email">
-          <input type="password">
-        </div>
-        <div class="section">
-          <input type="text">
-          <input type="tel">
-          <input type="password">
-        </div>
+      <div class="description">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams.
+          Sign up now to get started.
+        </p>
+        <p>You know you want to.</p>
       </div>
+      <form action="">
+        <div class="input-container">
+          <h2>Let's do this!</h2>
+          <div class="input-sections">
+            <div class="section">
+              <div class="input">
+                <label for="fName">First Name</label>
+                <input type="text" name="fName" id="fName">
+              </div>
+              <div class="input">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+              </div>
+              <div class="input">
+                <label for="pwd">Password</label>
+                <input type="password" name="pwd" id="pwd">
+              </div>
+            </div>
+            <div class="section">
+              <div class="input">
+                <label for="lName">Last Name</label>
+                <input type="text" name="lName" id="lName">
+              </div>
+              <div class="input">
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone">
+              </div>
+              <div class="input">
+                <label for="confirm-pwd">Confirm Password</label>
+                <input type="password" name="confirm-pwd" id="confirm-pwd">
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="submit-button">Create Account</button>
+      </form>
+      <p>Already have an account? Log in</p>
     </main>
-    <button class="submit-button">Create Account</button>
-    <p>Already have an account? Log in</p>
   </div>
 </body>
 </html>
