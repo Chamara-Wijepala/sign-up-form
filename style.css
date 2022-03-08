@@ -39,6 +39,7 @@ html {
 
 :root {
   font-family: 'roboto';
+  --accent-color: #d83337;
 }
 
 body {
@@ -123,4 +124,15 @@ form,
   display: flex;
   flex-direction: column;
   margin-block: 1rem;
+}
+
+.submit-button {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: var(--accent-color);
+  color: white;
 }
