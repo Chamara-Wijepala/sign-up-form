@@ -46,6 +46,19 @@ body {
   height: 5rem;
 }
 
+.credits {
+  color: white;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.credits a {
+  color: inherit;
+}
+
 /* content */
 .content {
   flex: 2 1 0;
