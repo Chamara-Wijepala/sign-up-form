@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+}
+
+/* form-background */
+.form-background {
+  position: relative;
+}
+
+.background-image {
+  display: block;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  width: 100%;
+  top: 25%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
