@@ -93,4 +93,34 @@ body {
 /* content */
 .content {
   flex: 2 1 0;
+  display: flex;
+}
+
+.main {
+  margin-block: auto;
+  padding: 2.5rem;
+}
+
+.description {
+  margin-bottom: 4rem;
+}
+
+.description > p {
+  margin-block: 1rem;
+}
+
+.input-container {
+  display: flex;
+  gap: 3rem;
+}
+
+form,
+.input-container {
+  padding-block: 1rem;
+}
+
+.section > .input {
+  display: flex;
+  flex-direction: column;
+  margin-block: 1rem;
 }
