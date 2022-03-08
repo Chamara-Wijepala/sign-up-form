@@ -125,6 +125,10 @@ body {
   font-size: 1.5rem;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .input-container {
   display: flex;
   gap: 3rem;
