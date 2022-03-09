@@ -185,6 +185,11 @@ input:focus {
   cursor: pointer;
   background-color: var(--accent-color);
   color: white;
+  transition: 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #f73c40;
 }
 
 .log-in > a {
