@@ -54,6 +54,10 @@ body {
   width: 100vw;
 }
 
+a {
+  color: inherit;
+}
+
 /* form-background */
 .form-background {
   display: flex;
@@ -90,10 +94,6 @@ body {
   align-items: center;
   text-align: center;
   gap: 0.5rem;
-}
-
-.credits a {
-  color: inherit;
 }
 
 /* content */
@@ -181,4 +181,8 @@ input:focus {
   cursor: pointer;
   background-color: var(--accent-color);
   color: white;
+}
+
+.log-in > a {
+  margin: 0;
 }
