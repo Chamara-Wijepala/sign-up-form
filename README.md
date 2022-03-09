@@ -2,6 +2,8 @@
 
 > ## From [The Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/intermediate-html-and-css/lessons/sign-up-form)
 
+> - [Live Demo](https://chamara-wijepala.github.io/sign-up-form/)
+
 # Credits
 
 ## Images
