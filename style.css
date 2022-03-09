@@ -194,6 +194,11 @@ input:focus {
 
 .log-in > a {
   margin: 0;
+  color: var(--accent-color);
+}
+
+.log-in > a:hover {
+  color: #f73c40;
 }
 
 @media (max-width: 860px) {
